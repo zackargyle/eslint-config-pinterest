@@ -14,7 +14,7 @@ module.exports = {
         'global-strict': 0,
         'indent': 2,
         'key-spacing': 0,
-        'max-len': [2, 120, 4],
+        'max-len': [1, 120, 4],
         'new-cap': 0,
         'no-alert': 2,
         'no-caller': 2,
