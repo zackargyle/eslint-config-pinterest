@@ -1,11 +1,12 @@
 {
-    "name": "eslint-config-pinterest",
-    "main": "index.js",
-    "version": "0.0.1",
-    "peerDependencies": {
-        "eslint": "^1.10.0"
-    },
-    "dependencies": {
-        "babel-eslint": "^4.1.8"
-    }
+  "name": "eslint-config-pinterest",
+  "main": "index.js",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "eslint": "^1.10.0"
+  },
+  "dependencies": {
+    "babel-eslint": "^4.1.8",
+    "eslint-plugin-react": "^4.1.0"
+  }
 }
