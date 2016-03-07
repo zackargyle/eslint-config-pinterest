@@ -8,7 +8,7 @@ module.exports = {
     rules: {
         // Prevent missing displayName in a React component definition
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
-        // 'react/display-name': [0, { 'ignoreTranspilerName': false }],
+        'react/display-name': [0, { 'ignoreTranspilerName': false }],
         // Forbid certain propTypes (any, array, object)
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-prop-types.md
         // 'react/forbid-prop-types': [2, { 'forbid': ['any', 'array', 'object'] }],
@@ -38,7 +38,7 @@ module.exports = {
         // 'react/jsx-indent': [2, 4],
         // Validate JSX has key prop when in array or iterator
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
-        // 'react/jsx-key': 2,
+        'react/jsx-key': 2,
         // Limit maximum of props on a single line in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-max-props-per-line.md
         // 'react/jsx-max-props-per-line': [0, { 'maximum': 1 }],
@@ -47,16 +47,16 @@ module.exports = {
         // 'react/jsx-no-bind': 2,
         // Prevent duplicate props in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-        // 'react/jsx-no-duplicate-props': [2, { 'ignoreCase': false }],
+        'react/jsx-no-duplicate-props': [2, { 'ignoreCase': false }],
         // Prevent usage of unwrapped JSX strings
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
         // 'react/jsx-no-literals': 2,
         // Disallow undeclared variables in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
-        // 'react/jsx-no-undef': 2,
+        'react/jsx-no-undef': 2,
         // Enforce PascalCase for user-defined JSX components
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-pascal-case.md
-        // 'react/jsx-pascal-case': 0,
+        'react/jsx-pascal-case': 0,
         // Enforce propTypes declarations alphabetical sorting
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
         'react/sort-prop-types': [2, {
@@ -84,22 +84,22 @@ module.exports = {
         // 'react/no-danger': 1,
         // Prevent usage of deprecated methods
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-        // 'react/no-deprecated': [2, { 'react': '0.14.0' }],
+        'react/no-deprecated': [2, { 'react': '0.14.0' }],
         // Prevent usage of setState in componentDidMount
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
         // 'react/no-did-mount-set-state': [2, 'allow-in-func'],
         // Prevent usage of setState in componentDidUpdate
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-update-set-state.md
-        // 'react/no-did-update-set-state': [2, 'allow-in-func'],
+        'react/no-did-update-set-state': [2, 'allow-in-func'],
         // Prevent direct mutation of this.state
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-        // 'react/no-direct-mutation-state': 2,
+        'react/no-direct-mutation-state': 2,
         // Prevent usage of isMounted
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
-        // 'react/no-is-mounted': 2,
+        'react/no-is-mounted': 2,
         // Prevent multiple component definition per file
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-        // 'react/no-multi-comp': [2, { 'ignoreStateless': true }],
+        'react/no-multi-comp': [2, { 'ignoreStateless': true }],
         // Prevent usage of setState
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
         // 'react/no-set-state': 0,
@@ -111,7 +111,7 @@ module.exports = {
         // 'react/no-unknown-property': 2,
         // Require ES6 class declarations over React.createClass
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
-        // 'react/prefer-es6-class': [2, 'always'],
+        'react/prefer-es6-class': [2, 'always'],
         // Prevent missing props validation in a React component definition
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
         'react/prop-types': [2, { 'ignore': [], 'customValidators': [] }],
