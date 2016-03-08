@@ -32,10 +32,10 @@ module.exports = {
         // }],
         // Validate props indentation in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
-        // 'react/jsx-indent-props': [2, 4],
+        'react/jsx-indent-props': [2, 4],
         // Validate JSX indentation
         //  https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent.md
-        // 'react/jsx-indent': [2, 4],
+        'react/jsx-indent': [2, 4],
         // Validate JSX has key prop when in array or iterator
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
         'react/jsx-key': 2,
@@ -108,7 +108,7 @@ module.exports = {
         // 'react/no-string-refs': 2,
         // Prevent usage of unknown DOM property
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
-        // 'react/no-unknown-property': 2,
+        'react/no-unknown-property': 2,
         // Require ES6 class declarations over React.createClass
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
         'react/prefer-es6-class': [2, 'always'],
