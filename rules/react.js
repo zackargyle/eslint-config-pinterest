@@ -20,10 +20,10 @@ module.exports = {
         // 'react/jsx-closing-bracket-location': [2, 'line-aligned'],
         // Enforce or disallow spaces inside of curly braces in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-        'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
+        // 'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
         // Enforce or disallow spaces around equal signs in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-        'react/jsx-equals-spacing': [2, 'never'],
+        // 'react/jsx-equals-spacing': [2, 'never'],
         // Enforce event handler naming conventions in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
         // 'react/jsx-handler-names': [2, {
@@ -50,7 +50,7 @@ module.exports = {
         'react/jsx-no-duplicate-props': [2, { 'ignoreCase': false }],
         // Prevent usage of unwrapped JSX strings
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-        'react/jsx-no-literals': 2,
+        // 'react/jsx-no-literals': 2,
         // Disallow undeclared variables in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
         'react/jsx-no-undef': 2,
