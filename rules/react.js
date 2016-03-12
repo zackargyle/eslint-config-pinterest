@@ -66,10 +66,10 @@ module.exports = {
         }],
         // Enforce props alphabetical sorting
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-        'react/jsx-sort-props': [2, {
-            'ignoreCase': true,
-            'callbacksLast': false,
-        }],
+        // 'react/jsx-sort-props': [2, {
+        //     'ignoreCase': true,
+        //     'callbacksLast': true,
+        // }],
         // Validate spacing before closing bracket in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
         // 'react/jsx-space-before-closing': [2, 'always'],
