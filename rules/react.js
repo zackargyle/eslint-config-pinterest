@@ -141,6 +141,7 @@ module.exports = {
                 ],
                 'handlers': [
                     '/^handle.+$/',
+                    '/^on.+$/',
                 ]
             }
         }],
