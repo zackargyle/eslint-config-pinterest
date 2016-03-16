@@ -23,7 +23,7 @@ module.exports = {
         // 'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
         // Enforce or disallow spaces around equal signs in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
-        // 'react/jsx-equals-spacing': [2, 'never'],
+        'react/jsx-equals-spacing': [2, 'never'],
         // Enforce event handler naming conventions in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
         // 'react/jsx-handler-names': [2, {
