@@ -72,7 +72,7 @@ module.exports = {
         }],
         // Validate spacing before closing bracket in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-        // 'react/jsx-space-before-closing': [2, 'always'],
+        'react/jsx-space-before-closing': [2, 'always'],
         // Prevent React to be incorrectly marked as unused
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
         'react/jsx-uses-react': [2, { 'pragma': 'React' }],
