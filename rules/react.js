@@ -102,7 +102,7 @@ module.exports = {
         'react/no-multi-comp': [2, { 'ignoreStateless': true }],
         // Prevent usage of setState
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
-        // 'react/no-set-state': 0,
+        'react/no-set-state': 0,
         // Prevent using string references
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md
         // 'react/no-string-refs': 2,
