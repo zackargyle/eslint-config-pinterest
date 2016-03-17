@@ -20,7 +20,7 @@ module.exports = {
         // 'react/jsx-closing-bracket-location': [2, 'line-aligned'],
         // Enforce or disallow spaces inside of curly braces in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-        // 'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
+        'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
         // Enforce or disallow spaces around equal signs in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
         'react/jsx-equals-spacing': [2, 'never'],
