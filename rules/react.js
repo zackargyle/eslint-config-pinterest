@@ -81,7 +81,7 @@ module.exports = {
         'react/jsx-uses-vars': 2,
         // Prevent usage of dangerous JSX properties
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-danger.md
-        // 'react/no-danger': 1,
+        'react/no-danger': 2,
         // Prevent usage of deprecated methods
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
         'react/no-deprecated': [2, { 'react': '0.14.0' }],
