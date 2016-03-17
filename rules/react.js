@@ -20,7 +20,7 @@ module.exports = {
         // 'react/jsx-closing-bracket-location': [2, 'line-aligned'],
         // Enforce or disallow spaces inside of curly braces in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md
-        // 'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
+        'react/jsx-curly-spacing': [2, 'never', { 'allowMultiline': true }],
         // Enforce or disallow spaces around equal signs in JSX attributes
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md
         'react/jsx-equals-spacing': [2, 'never'],
@@ -72,7 +72,7 @@ module.exports = {
         }],
         // Validate spacing before closing bracket in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md
-        // 'react/jsx-space-before-closing': [2, 'always'],
+        'react/jsx-space-before-closing': [2, 'always'],
         // Prevent React to be incorrectly marked as unused
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
         'react/jsx-uses-react': [2, { 'pragma': 'React' }],
