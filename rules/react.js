@@ -14,7 +14,7 @@ module.exports = {
         // 'react/forbid-prop-types': [2, { 'forbid': ['any', 'array', 'object'] }],
         // Enforce boolean attributes notation in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-        // 'react/jsx-boolean-value': [2, 'never'],
+        'react/jsx-boolean-value': [2, 'never'],
         // Validate closing bracket location in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-closing-bracket-location.md
         // 'react/jsx-closing-bracket-location': [2, 'line-aligned'],
