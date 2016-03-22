@@ -35,7 +35,7 @@ module.exports = {
         'no-unused-expressions': 2,
         'no-unused-vars': [2, {'vars': 'all', 'args': 'none'}],
         'no-use-before-define': 2,
-        'quotes': [0, 'single'],
+        'quotes': [2, 'single'],
         'semi': [2, 'always'],
         'semi-spacing': [0, {'before': false, 'after': true}],
         'space-unary-ops': 0,
