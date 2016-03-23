@@ -1,4 +1,4 @@
-# eslint-config-pinterest
+# eslint-config-pinterest [![npm version](https://img.shields.io/npm/v/eslint-config-pinterest.svg?style=flat)](https://www.npmjs.com/package/eslint-config-pinterest)
 
 ## Installation
 
