@@ -3,7 +3,7 @@
   "main": "index.js",
   "version": "11.0.1",
   "peerDependencies": {
-    "eslint": "^1.10.0"
+    "eslint": "^2.5.3"
   },
   "dependencies": {
     "babel-eslint": "^4.1.8",
