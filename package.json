@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-pinterest",
   "main": "index.js",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "peerDependencies": {
     "eslint": "^1.10.0"
   },
