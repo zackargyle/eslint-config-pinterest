@@ -77,7 +77,7 @@ module.exports = {
         'react/jsx-no-duplicate-props': [2, { 'ignoreCase': false }],
         // Prevent usage of unwrapped JSX strings
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-literals.md
-        // 'react/jsx-no-literals': 2,
+        'react/jsx-no-literals': 2,
         // Disallow undeclared variables in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
         'react/jsx-no-undef': 2,
