@@ -14,6 +14,7 @@ module.exports = {
         'pinterest/no-jquery-outside-of-render': 2,
         'pinterest/no-jquery-var-without-$': 2,
         'pinterest/no-listen-childListen-bind': 2,
+        'pinterest/no-module-factory-load': 2,
         'pinterest/no-module-member-variables': 0,
         'pinterest/no-mutable-module-options': 0,
         'pinterest/no-private-functions-without-annotation': 0,
