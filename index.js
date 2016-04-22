@@ -14,7 +14,9 @@ module.exports = {
         'global-strict': 0,
         'indent': 2,
         'key-spacing': 0,
-        'max-len': [2, 120, 4],
+        'max-len': [2, 120, 4, {
+            "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$"
+        }],
         'new-cap': 0,
         'no-alert': 2,
         'no-caller': 2,
