@@ -40,6 +40,7 @@ module.exports = {
         'quotes': [2, 'single'],
         'semi': [2, 'always'],
         'semi-spacing': [0, {'before': false, 'after': true}],
+        'space-infix-ops': 2,
         'space-unary-ops': 0,
         'strict': 0,
         'yoda': 2,
