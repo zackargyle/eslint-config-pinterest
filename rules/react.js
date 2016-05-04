@@ -53,10 +53,10 @@ module.exports = {
         'react/jsx-equals-spacing': [2, 'never'],
         // Enforce event handler naming conventions in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
-        // 'react/jsx-handler-names': [2, {
-        //     'eventHandlerPrefix': 'handle',
-        //     'eventHandlerPropPrefix': 'on',
-        // }],
+        'react/jsx-handler-names': [2, {
+            'eventHandlerPrefix': 'handle',
+            'eventHandlerPropPrefix': 'on',
+        }],
         // Validate props indentation in JSX
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-indent-props.md
         'react/jsx-indent-props': [2, 4],
