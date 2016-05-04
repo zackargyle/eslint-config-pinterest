@@ -2,6 +2,10 @@
   "name": "eslint-config-pinterest",
   "main": "index.js",
   "version": "17.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pinterest-web/eslint-config-pinterest"
+  },
   "peerDependencies": {
     "eslint": "^2.5.3"
   },
