@@ -13,7 +13,8 @@ module.exports = {
         'eqeqeq': 2,
         'global-strict': 0,
         'indent': 2,
-        'key-spacing': 0,
+        'key-spacing': ["error", { "afterColon": true }],
+        'keyword-spacing': ["error", { "before": true, "after": true }],
         'max-len': [2, 120, 4, {
             "ignorePattern": "^(import\\s.+)|(\\s*(var\\s.+=\\s*)?require\\s*\\(.+)$"
         }],
