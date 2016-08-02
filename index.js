@@ -27,6 +27,7 @@ module.exports = {
         'no-empty': 0,
         'no-eq-null': 0,
         'no-extend-native': 0,
+        'no-extra-semi': 2,
         'no-multi-spaces': 0,
         'no-octal-escape': 0,
         'no-process-exit': 2,
