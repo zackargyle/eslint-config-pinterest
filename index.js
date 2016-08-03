@@ -39,6 +39,8 @@ module.exports = {
         'no-unused-expressions': 2,
         'no-unused-vars': [2, {'vars': 'all', 'args': 'none'}],
         'no-use-before-define': 2,
+        'no-var': 2,
+        'prefer-const': ["error", {'destructuring': 'all', 'ignoreReadBeforeAssign': true}],
         'quotes': [2, 'single'],
         'semi': [2, 'always'],
         'semi-spacing': [0, {'before': false, 'after': true}],
