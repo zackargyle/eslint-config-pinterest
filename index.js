@@ -46,7 +46,7 @@ module.exports = {
         'semi-spacing': [0, {'before': false, 'after': true}],
         'space-infix-ops': 2,
         'space-unary-ops': 0,
-        'sort-imports': ['error', {
+        'pinterest/sort-imports': ['error', {
             'ignoreCase': true,
             'ignoreMemberSort': false,
             'memberSyntaxSortOrder': ['none', 'all', 'single', 'multiple']
