@@ -12,7 +12,7 @@ module.exports = {
         'eol-last': 0,
         'eqeqeq': 2,
         'global-strict': 0,
-        'indent': 2,
+        'indent': ['error', 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
         'key-spacing': ["error", { "afterColon": true }],
         'keyword-spacing': ["error", { "before": true, "after": true }],
         'max-len': [2, 120, 4, {
