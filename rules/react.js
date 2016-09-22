@@ -37,7 +37,7 @@ module.exports = {
         'pinterest/no-enzyme-mount': 2,
         // Enforce quote style for jsx attributes.
         // http://eslint.org/docs/rules/jsx-quotes
-        'jsx-quotes': [2, 'prefer-single'],
+        'jsx-quotes': [2, 'prefer-double'],
         // Prevent missing displayName in a React component definition
         // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/display-name.md
         'react/display-name': [0, { 'ignoreTranspilerName': false }],
