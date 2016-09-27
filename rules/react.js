@@ -33,6 +33,7 @@ module.exports = {
         'pinterest/no-translation-outside-of-function': 0,
         'pinterest/no-unassigned-requires': 0,
         'pinterest/no-unhandled-promise-errors': 0,
+        'pinterest/no-dynamic-i18n-calls': 2,
         // Enforce no enzyme.mount usage
         'pinterest/no-enzyme-mount': 2,
         // Enforce quote style for jsx attributes.
